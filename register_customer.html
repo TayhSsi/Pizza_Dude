@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/customer.css" />
+
+    <title>Cadastro - Pizza Dude</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="cadastro">
+        <form method="post" action="">
+          <h1>Cadastro Cli</h1>
+
+          <div class="dados_pessoal">
+            <p>
+              <label for="">Nome : </label>
+              <input
+                id=""
+                name=""
+                required="required"
+                type="text"
+                placeholder="Nome"
+              />
+            </p>
+
+            <p>
+              <label for=""> CPF : </label>
+              <input
+                type="text"
+                name="cpf"
+                \
+                pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+                \
+                title="Digite um CPF no formato: xxx.xxx.xxx-xx"
+                placeholder="CPF -  xxx.xxx.xxx-xx"
+              />
+            </p>
+          </div>
+
+          <div class="endereco">
+            <p>
+              <label for="">Endereço : </label>
+              <input
+                id=""
+                name=""
+                required="required"
+                type="text"
+                placeholder="Endereço"
+              />
+            </p>
+
+            <p>
+              <label for="">Número : </label>
+              <input
+                id=""
+                name=""
+                required="required"
+                type="number"
+                placeholder="Número"
+              />
+            </p>
+
+            <p>
+              <label for="">CEP : </label>
+              <input
+                id=""
+                name=""
+                required="required"
+                type=""
+                placeholder="CEP"
+              />
+            </p>
+          </div>
+
+          <p>
+            <input type="submit" value="Cadastrar" />
+          </p>
+
+          <p class="">
+            Já tem conta?
+            <br />
+            <a href=""> Pedido </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+
+  <script src="js/customer.js"></script>
+</html>
